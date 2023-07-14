@@ -3,7 +3,7 @@
 /**
  * main - Entry level
  *
- * Description: Prints alphabet in lowercase then in uppercase.
+ * Description: Prints alphabet in lowercase then in uppercase
  *
  * Return: Always 0 (success)
 */
@@ -19,13 +19,13 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	/*print A - z*/
-	while (CH <= 'z')
+	/*print A - Z*/
+	while (CH <= 'Z')
 	{
 		putchar(CH);
-			ch++;
+		ch++;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
