@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible combinations of three different digits,
- *		in ascending order, separated by a comma followed by a space.
+ * Description: Print all possible different
+ *		combination of two digits..
  *
  * Return: Always 0 (success)
 */
