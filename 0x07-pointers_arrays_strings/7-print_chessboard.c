@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
- * print_chessboard - print a chessboard.
- * @a: source matrix
+ * print_chessboard - prints the chess board
  *
+ * @a: input pointer
  *
- * Return: chessboard.
+ * Return: return nothing
 */
+
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
