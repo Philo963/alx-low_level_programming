@@ -1,13 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * print_chessboard - prints the chess board
  *
- * Return: Always 0.
+ * @a: input pointer
+ *
+ * Return: return nothing
 */
 
-int main(void)
+void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
